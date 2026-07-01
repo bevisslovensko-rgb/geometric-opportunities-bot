@@ -38,6 +38,12 @@ TIER_2 = [
     "light art", "light installation",
     "mosaic", "ceramic art", "enamel",
     "printmaking abstract", "relief print",
+    # Opportunity-specific — boosted so any real call passes easily
+    "open call", "open submission", "calls for entries", "call for submissions",
+    "residency", "artist residency", "art residency", "artist-in-residence",
+    "grant", "art grant", "fellowship", "bursary", "stipend",
+    "award", "prize", "art prize", "art award",
+    "commission", "public commission",
 ]
 
 # ─── TIER 3 — Broad but valid (1 pt each) ────────────────────────────────────
@@ -48,13 +54,9 @@ TIER_3 = [
     "textile", "fiber art", "tapestry", "weaving",
     "ceramics", "pottery",
     "mixed media", "multimedia",
-    "residency", "artist residency", "art residency",
-    "grant", "art grant", "fellowship",
-    "award", "prize", "art prize",
-    "commission", "public commission",
-    "open call", "open submission",
     "contemporary art", "visual art",
     "emerging artist", "established artist",
+    "artist", "artists",
 ]
 
 # ─── EXCLUDE — Automatic disqualification ────────────────────────────────────
