@@ -13,7 +13,6 @@ GMAIL_APP_PASSWORD = os.environ.get("GMAIL_APP_PASSWORD", "")
 EMAIL_TO           = os.environ.get("EMAIL_TO", "")
 
 # Article sources: monthly curated roundup articles
-# URL template uses {month} (lowercase) and {year}
 ARTICLE_SOURCES = [
     {
         "name":         "Hyperallergic",

@@ -3,7 +3,7 @@ Keyword scoring filter for Geometric Magazine Opportunities Bot.
 Returns relevance score (0-10) and matched keywords for each opportunity.
 """
 
-# ─── TIER 1 — Direct geometric match (3 pts each) ────────────────────────────
+# --- TIER 1 - Direct geometric match (3 pts each) ---
 TIER_1 = [
     "geometric", "geometry", "geometrical",
     "op art", "optical art", "optical illusion",
@@ -22,7 +22,7 @@ TIER_1 = [
     "isometric", "grid-based",
 ]
 
-# ─── TIER 2 — Compatible abstraction (2 pts each) ────────────────────────────
+# --- TIER 2 - Compatible abstraction (2 pts each) ---
 TIER_2 = [
     "abstract", "abstraction", "abstract art",
     "non-figurative", "nonfigurative",
@@ -38,7 +38,7 @@ TIER_2 = [
     "light art", "light installation",
     "mosaic", "ceramic art", "enamel",
     "printmaking abstract", "relief print",
-    # Opportunity-specific — boosted so any real call passes easily
+    # Opportunity-specific - boosted so any real call passes easily
     "open call", "open submission", "calls for entries", "call for submissions",
     "residency", "artist residency", "art residency", "artist-in-residence",
     "grant", "art grant", "fellowship", "bursary", "stipend",
@@ -46,7 +46,7 @@ TIER_2 = [
     "commission", "public commission",
 ]
 
-# ─── TIER 3 — Broad but valid (1 pt each) ────────────────────────────────────
+# --- TIER 3 - Broad but valid (1 pt each) ---
 TIER_3 = [
     "painting", "sculpture", "drawing",
     "works on paper", "paper works",
@@ -59,7 +59,7 @@ TIER_3 = [
     "artist", "artists",
 ]
 
-# ─── EXCLUDE — Automatic disqualification ────────────────────────────────────
+# --- EXCLUDE - Automatic disqualification ---
 EXCLUDE = [
     "figurative", "figure painting", "figure drawing",
     "portrait", "portraiture", "self-portrait",
@@ -71,9 +71,12 @@ EXCLUDE = [
     "graffiti writing", "graffiti lettering",
     "realism", "hyperrealism", "photorealism",
     "representational", "traditional figurative",
+    # Writing/criticism - not for visual artists
+    "art critic", "art critics", "art criticism",
+    "for critics", "essay on art", "writing about art",
 ]
 
-# ─── OPPORTUNITY TYPE DETECTION ───────────────────────────────────────────────
+# --- OPPORTUNITY TYPE DETECTION ---
 TYPE_KEYWORDS = {
     "residency":  ["residency", "residence", "artist-in-residence", "air program", "studio residency"],
     "grant":      ["grant", "fellowship", "funding", "bursary", "stipend", "award money"],
@@ -127,9 +130,9 @@ def score(text: str) -> tuple:
 
 def tier_label(score: int) -> str:
     if score >= 7:
-        return "Tier 1 — Geometrické"
+        return "Tier 1 - Geometricke"
     elif score >= 4:
-        return "Tier 2 — Abstraktné / Kompatibilné"
+        return "Tier 2 - Abstraktne / Kompatibilne"
     elif score >= 1:
-        return "Tier 3 — Na tvoj úsudok"
-    return "Irelevantné"
+        return "Tier 3 - Na tvoj usudok"
+    return "Irelevantne"
