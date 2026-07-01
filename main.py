@@ -79,7 +79,10 @@ def run():
     # 5. Save digest as markdown (committed to repo for history)
     _save_markdown(unique, today)
 
-    # 6. Send email
+    # 6. Save JSON for website
+    _save_json(unique, today)
+
+    # 7. Send email
     send_digest(unique, today)
 
 
@@ -128,6 +131,34 @@ def _save_markdown(opportunities: list[dict], run_date: datetime.date) -> None:
         f.write("\n".join(lines))
 
     print(f"[BOT] Saved digest → {filename}")
+
+
+def _save_json(opportunities: list[dict], run_date: datetime.date) -> None:
+    """Save opportunities as JSON for the website to consume."""
+    import json, os
+
+    def serialize(opp: dict) -> dict:
+        d = deadline.isoformat() if (deadline := opp.get("deadline")) else None
+        return {
+            "title":       opp.get("title", ""),
+            "link":        opp.get("link", ""),
+            "description": opp.get("description", "")[:400],
+            "deadline":    d,
+            "source":      opp.get("source", ""),
+            "type":        opp.get("type", "open_call"),
+            "score":       opp.get("score", 0),
+            "keywords":    opp.get("keywords", [])[:5],
+        }
+
+    payload = {
+        "generated":     run_date.isoformat(),
+        "opportunities": [serialize(o) for o in opportunities],
+    }
+
+    with open("opportunities.json", "w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2)
+
+    print(f"[BOT] Saved opportunities.json — {len(opportunities)} items")
 
 
 if __name__ == "__main__":
