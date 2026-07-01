@@ -10,11 +10,11 @@
       "type": "residency",
       "score": 10,
       "keywords": [
-        "media art",
-        "award",
         "residency",
         "artist",
-        "grant"
+        "artists",
+        "grant",
+        "award"
       ]
     },
     {
@@ -26,11 +26,11 @@
       "type": "residency",
       "score": 9,
       "keywords": [
-        "stipend",
-        "ceramics",
+        "print",
         "residency",
-        "printmaking",
-        "artist"
+        "artist",
+        "stipend",
+        "artists"
       ]
     },
     {
@@ -42,26 +42,10 @@
       "type": "grant",
       "score": 9,
       "keywords": [
-        "stipend",
         "visual art",
-        "fellowship",
         "artist",
-        "grant"
-      ]
-    },
-    {
-      "title": "Ucross – Spring 2027 Artist Fellowships",
-      "link": "https://hyperallergic.com/a-90-000-graduate-fellowship-for-immigrants-children-of-immigrants-in-the-visual-arts/",
-      "description": "Paul & Daisy Soros — Fellowships for New Americans 2027 Up to $90,000 for immigrant & New American visual artists, architects & designers pursuing MFA, MA, PhD & other graduate degrees in any field at any accredited US institution. Read more on Hyperallergic . Deadline: October 29, 2026 | pdsoros.org  General Studio Fellows and Native American Fellowship recipients enjoy uninterrupted time and spa",
-      "deadline": "2026-10-29",
-      "source": "Hyperallergic",
-      "type": "grant",
-      "score": 9,
-      "keywords": [
+        "fellowship",
         "stipend",
-        "visual art",
-        "fellowship",
-        "artist",
         "grant"
       ]
     },
@@ -74,10 +58,10 @@
       "type": "grant",
       "score": 6,
       "keywords": [
-        "stipend",
         "artist",
         "fellowship",
-        "artists"
+        "artists",
+        "stipend"
       ]
     },
     {
@@ -89,21 +73,9 @@
       "type": "grant",
       "score": 4,
       "keywords": [
-        "artists",
         "artist",
+        "artists",
         "grant"
-      ]
-    },
-    {
-      "title": "2026 AICA International Incentive Prize for Art Critics",
-      "link": "https://bit.ly/4v6n4yO?ref=hyperallergic.com",
-      "description": "Critics are invited to submit a 2000–3000 essay on the theme \"Art criticism and eco-socially engaged practices: new writing, new challenges?\" First place will receive €2000, second place €1000, and third place €500. Deadline: August 6, 2026 | aica.org",
-      "deadline": "2026-08-06",
-      "source": "Hyperallergic",
-      "type": "prize",
-      "score": 2,
-      "keywords": [
-        "prize"
       ]
     }
   ]
