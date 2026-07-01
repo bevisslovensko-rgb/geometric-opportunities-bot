@@ -51,8 +51,24 @@ def run():
     print(f"[BOT] {len(unique)} relevant opportunities after filtering")
 
     if not unique:
-        print("[BOT] Nothing to send this week.")
-        return
+        if MIN_SCORE <= 1:
+            # TEST MODE: inject a dummy entry to verify email pipeline works
+            print("[BOT] No real opportunities found. Injecting test entry to verify email...")
+            import datetime as _dt
+            unique = [{
+                "title":       "TEST — Bot email pipeline check",
+                "link":        "https://geometricmagazine.com",
+                "description": "Toto je automatický testovací email. Ak ho vidíš, bot funguje správne. Skraping zdrojov je potrebné opraviť.",
+                "score":       5,
+                "keywords":    ["open call", "contemporary art"],
+                "type":        "open_call",
+                "deadline":    _dt.date.today() + _dt.timedelta(days=60),
+                "source":      "Bot Test",
+                "published":   None,
+            }]
+        else:
+            print("[BOT] Nothing to send this week.")
+            return
 
     # 4. Sort: score DESC, then deadline ASC
     unique.sort(key=lambda x: (

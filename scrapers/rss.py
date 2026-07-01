@@ -49,7 +49,10 @@ def fetch_rss_sources() -> list[dict]:
 
     for source in RSS_SOURCES:
         try:
-            feed = feedparser.parse(source["url"])
+            feed = feedparser.parse(source["url"], request_headers=HEADERS)
+            print(f"[RSS] {source['name']}: status={getattr(feed, 'status', 'N/A')} entries={len(feed.entries)} bozo={feed.bozo}")
+            if feed.bozo and feed.bozo_exception:
+                print(f"[RSS] {source['name']} bozo: {feed.bozo_exception}")
             for entry in feed.entries:
                 title = _strip_html(entry.get("title", "")).strip()
                 link  = entry.get("link", "")
