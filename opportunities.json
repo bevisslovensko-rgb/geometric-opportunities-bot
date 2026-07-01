@@ -10,11 +10,11 @@
       "type": "residency",
       "score": 10,
       "keywords": [
-        "residency",
-        "artists",
+        "media art",
         "award",
-        "grant",
-        "artist"
+        "residency",
+        "artist",
+        "grant"
       ]
     },
     {
@@ -26,11 +26,11 @@
       "type": "residency",
       "score": 9,
       "keywords": [
-        "residency",
-        "artists",
-        "ceramics",
         "stipend",
-        "printmaking"
+        "ceramics",
+        "residency",
+        "printmaking",
+        "artist"
       ]
     },
     {
@@ -42,10 +42,10 @@
       "type": "grant",
       "score": 9,
       "keywords": [
-        "artists",
+        "stipend",
         "visual art",
         "fellowship",
-        "stipend",
+        "artist",
         "grant"
       ]
     },
@@ -58,10 +58,10 @@
       "type": "grant",
       "score": 9,
       "keywords": [
-        "artists",
+        "stipend",
         "visual art",
         "fellowship",
-        "stipend",
+        "artist",
         "grant"
       ]
     },
@@ -74,9 +74,9 @@
       "type": "grant",
       "score": 6,
       "keywords": [
+        "stipend",
         "artist",
         "fellowship",
-        "stipend",
         "artists"
       ]
     },
@@ -89,9 +89,9 @@
       "type": "grant",
       "score": 4,
       "keywords": [
-        "grant",
+        "artists",
         "artist",
-        "artists"
+        "grant"
       ]
     },
     {
