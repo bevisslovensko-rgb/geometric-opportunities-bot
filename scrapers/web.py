@@ -58,7 +58,7 @@ def _absolute_url(href: str, base_url: str) -> str:
 def _scrape_source(source: dict) -> list[dict]:
     results = []
     try:
-        resp = requests.get(source["url"], headers=HEADERS, timeout=TIMEOUT)
+        resp = requests.get(source["url"], headers=HEADERS, timeout=TIMEOUT, verify=False)
         resp.raise_for_status()
         soup = BeautifulSoup(resp.text, "lxml")
 
