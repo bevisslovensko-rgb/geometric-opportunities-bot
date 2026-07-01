@@ -2,10 +2,8 @@ name: Weekly Opportunities Bot
 
 on:
   schedule:
-    # Every Monday at 07:00 UTC
     - cron: "0 7 * * 1"
   workflow_dispatch:
-    # Allow manual trigger from GitHub Actions UI
 
 jobs:
   run-bot:
@@ -36,8 +34,8 @@ jobs:
         run: |
           git config user.name  "Opportunities Bot"
           git config user.email "bot@geometricmagazine.com"
-          git add digests/
-          git diff --staged --quiet || git commit -m "Weekly digest $(date +%Y-%m-%d)"
-          git push
+          mkdir -p digests
+          git add digests/ 2>/dev/null || true
+          git diff --staged --quiet || (git commit -m "Weekly digest $(date +%Y-%m-%d)" && git push)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
