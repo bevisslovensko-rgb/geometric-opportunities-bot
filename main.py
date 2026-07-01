@@ -3,6 +3,7 @@ Geometric Magazine Opportunities Bot — main entry point.
 Fetches, filters, and emails relevant art opportunities every week.
 """
 import datetime
+from scrapers.article import fetch_article_sources
 from scrapers.rss import fetch_rss_sources
 from scrapers.web import fetch_web_sources
 from filter import score
@@ -18,8 +19,9 @@ def run():
 
     # 1. Fetch from all sources
     raw = []
-    raw.extend(fetch_rss_sources())
-    raw.extend(fetch_web_sources())
+    raw.extend(fetch_article_sources())   # Hyperallergic monthly roundup
+    raw.extend(fetch_rss_sources())       # RSS (currently empty)
+    raw.extend(fetch_web_sources())       # Res Artis web scraper
     print(f"[BOT] Fetched {len(raw)} raw opportunities")
 
     # 2. Score and filter

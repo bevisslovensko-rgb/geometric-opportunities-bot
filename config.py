@@ -1,51 +1,39 @@
 """
 Configuration for Geometric Magazine Opportunities Bot.
-Sensitive values (email credentials) are loaded from environment variables / GitHub Secrets.
 """
 import os
 
-# ─── Filter settings ──────────────────────────────────────────────────────────
-MIN_SCORE = 4                # Minimum relevance score (1-10)
-MIN_DAYS_REMAINING = 35      # Only include if deadline is at least this many days away
+# Filter settings
+MIN_SCORE          = 2   # Low because sources are pre-curated opportunity pages
+MIN_DAYS_REMAINING = 14  # Only include if deadline >= 14 days away
 
-# ─── Email settings (from GitHub Secrets) ────────────────────────────────────
-GMAIL_USER        = os.environ.get("GMAIL_USER", "")
+# Email settings (from GitHub Secrets)
+GMAIL_USER         = os.environ.get("GMAIL_USER", "")
 GMAIL_APP_PASSWORD = os.environ.get("GMAIL_APP_PASSWORD", "")
-EMAIL_TO          = os.environ.get("EMAIL_TO", "")
+EMAIL_TO           = os.environ.get("EMAIL_TO", "")
 
-# ─── Sources ──────────────────────────────────────────────────────────────────
-RSS_SOURCES = [
+# Article sources: monthly curated roundup articles
+# URL template uses {month} (lowercase) and {year}
+ARTICLE_SOURCES = [
     {
-        "name": "Artforum",
-        "url": "https://www.artforum.com/feed/",
-        "base_url": "https://www.artforum.com",
-    },
-    {
-        "name": "Creative Capital",
-        "url": "https://creative-capital.org/feed/",
-        "base_url": "https://creative-capital.org",
-    },
-    {
-        "name": "NYFA",
-        "url": "https://www.nyfa.org/feed/",
-        "base_url": "https://www.nyfa.org",
-    },
-    {
-        "name": "Hyperallergic",
-        "url": "https://hyperallergic.com/rss/",
-        "base_url": "https://hyperallergic.com",
+        "name":         "Hyperallergic",
+        "url_template": "https://hyperallergic.com/opportunities-in-{month}-{year}/",
     },
 ]
 
+# RSS sources (currently empty - news feeds were not useful)
+RSS_SOURCES = []
+
+# Web sources: dedicated opportunity listing pages
 WEB_SOURCES = [
     {
-        "name": "Res Artis",
-        "url": "https://www.resartis.org/residencies/",
-        "base_url": "https://www.resartis.org",
-        "type": "residency",
-        "item_selector": "article, .residency-item, .listing-item",
-        "title_selector": "h2, h3, .title",
+        "name":          "Res Artis",
+        "url":           "https://resartis.org/open-calls/",
+        "base_url":      "https://resartis.org",
+        "type":          "residency",
+        "item_selector": ".views-row, article, .listing-item, .residency-item, li",
+        "title_selector":"h2, h3, h4, .title, strong, b",
         "link_selector": "a",
-        "desc_selector": "p, .description, .excerpt",
+        "desc_selector": "p, .description, .field-content",
     },
 ]
