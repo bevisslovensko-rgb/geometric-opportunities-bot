@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-01",
+  "generated": "2026-07-06",
   "opportunities": [
     {
       "title": "Hyundai Motor Group – The 7th VH Award",
@@ -10,10 +10,10 @@
       "type": "residency",
       "score": 10,
       "keywords": [
-        "residency",
-        "artist",
         "artists",
         "grant",
+        "residency",
+        "media art",
         "award"
       ]
     },
@@ -26,11 +26,11 @@
       "type": "residency",
       "score": 9,
       "keywords": [
-        "print",
-        "residency",
-        "artist",
         "stipend",
-        "artists"
+        "artists",
+        "residency",
+        "printmaking",
+        "ceramics"
       ]
     },
     {
@@ -42,11 +42,11 @@
       "type": "grant",
       "score": 9,
       "keywords": [
-        "visual art",
-        "artist",
-        "fellowship",
         "stipend",
-        "grant"
+        "visual art",
+        "artists",
+        "grant",
+        "fellowship"
       ]
     },
     {
@@ -58,8 +58,8 @@
       "type": "grant",
       "score": 6,
       "keywords": [
-        "artist",
         "fellowship",
+        "artist",
         "artists",
         "stipend"
       ]
