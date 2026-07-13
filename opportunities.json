@@ -1,22 +1,6 @@
 {
-  "generated": "2026-07-06",
+  "generated": "2026-07-13",
   "opportunities": [
-    {
-      "title": "Hyundai Motor Group – The 7th VH Award",
-      "link": "https://hyperallergic.com/7th-vh-award-for-media-artists-engaged-with-the-context-of-asia/",
-      "description": "A global award for emerging media artists engaging with the context of Asia, featuring grants, a residency with Ars Electronica, and global exhibitions. Read more on Hyperallergic . Deadline: July 21, 2026 | vhaward.com",
-      "deadline": "2026-07-21",
-      "source": "Hyperallergic",
-      "type": "residency",
-      "score": 10,
-      "keywords": [
-        "artists",
-        "grant",
-        "residency",
-        "media art",
-        "award"
-      ]
-    },
     {
       "title": "Peters Valley School of Craft Residency",
       "link": "https://petersvalley.org/opportunities/artist-residencies/?ref=hyperallergic.com",
@@ -26,10 +10,10 @@
       "type": "residency",
       "score": 9,
       "keywords": [
-        "stipend",
         "artists",
+        "print",
+        "artist",
         "residency",
-        "printmaking",
         "ceramics"
       ]
     },
@@ -42,11 +26,11 @@
       "type": "grant",
       "score": 9,
       "keywords": [
-        "stipend",
-        "visual art",
+        "fellowship",
         "artists",
-        "grant",
-        "fellowship"
+        "artist",
+        "stipend",
+        "visual art"
       ]
     },
     {
@@ -59,9 +43,9 @@
       "score": 6,
       "keywords": [
         "fellowship",
+        "stipend",
         "artist",
-        "artists",
-        "stipend"
+        "artists"
       ]
     },
     {
