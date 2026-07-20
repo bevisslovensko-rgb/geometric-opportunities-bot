@@ -1,22 +1,6 @@
 {
-  "generated": "2026-07-13",
+  "generated": "2026-07-20",
   "opportunities": [
-    {
-      "title": "Peters Valley School of Craft Residency",
-      "link": "https://petersvalley.org/opportunities/artist-residencies/?ref=hyperallergic.com",
-      "description": "This program is open to artists working in blacksmithing, ceramics, fibers, jewelry and fine metals, wood, and printmaking. Residents receive a $600 or $900 stipend to work in fully equipped studios for two or three weeks. Housing is included. There is a $10 application fee. Deadline: July 31, 2026| petersvalley.org",
-      "deadline": "2026-07-31",
-      "source": "Hyperallergic",
-      "type": "residency",
-      "score": 9,
-      "keywords": [
-        "artists",
-        "print",
-        "artist",
-        "residency",
-        "ceramics"
-      ]
-    },
     {
       "title": "Paul & Daisy Soros — Fellowships for New Americans 2027",
       "link": "https://hyperallergic.com/a-90-000-graduate-fellowship-for-immigrants-children-of-immigrants-in-the-visual-arts/",
@@ -26,11 +10,11 @@
       "type": "grant",
       "score": 9,
       "keywords": [
-        "fellowship",
-        "artists",
+        "visual art",
         "artist",
+        "artists",
         "stipend",
-        "visual art"
+        "fellowship"
       ]
     },
     {
@@ -43,8 +27,8 @@
       "score": 6,
       "keywords": [
         "fellowship",
-        "stipend",
         "artist",
+        "stipend",
         "artists"
       ]
     },
@@ -57,9 +41,9 @@
       "type": "grant",
       "score": 4,
       "keywords": [
+        "grant",
         "artist",
-        "artists",
-        "grant"
+        "artists"
       ]
     }
   ]
