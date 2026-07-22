@@ -63,9 +63,7 @@
       "score": 9,
       "continent": "North America",
       "keywords": [
-        "stipend",
         "visual art",
-        "fellowship",
         "artist",
         "grant"
       ]
@@ -81,10 +79,7 @@
       "continent": "North America",
       "keywords": [
         "stipend",
-        "visual art",
-        "fellowship",
-        "artist",
-        "grant"
+        "fellowship"
       ]
     },
     {
@@ -97,9 +92,9 @@
       "score": 6,
       "continent": "North America",
       "keywords": [
-        "stipend",
-        "artist",
         "fellowship",
+        "artist",
+        "stipend",
         "artists"
       ]
     },
@@ -113,7 +108,7 @@
       "score": 4,
       "continent": "North America",
       "keywords": [
-        "artists",
+        "grant",
         "artist",
         "grant"
       ]
