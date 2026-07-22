@@ -20,6 +20,110 @@
       ]
     },
     {
+      "title": "The Homiens Art Prize 2026",
+      "link": "https://homiens.com/homiens-art-prize/",
+      "description": "Open to all artists, all media, no theme. Three winners and twelve finalists exhibit; $1,000 cash awards and international visibility. Entry fee: $35 (limited free submissions available per round). Deadline: July 29, 2026 | homiens.com",
+      "deadline": "2026-07-29",
+      "source": "Homiens",
+      "type": "prize",
+      "score": 6,
+      "continent": "Online / Anywhere",
+      "manual": true,
+      "keywords": [
+        "prize",
+        "open call",
+        "all media",
+        "international"
+      ]
+    },
+    {
+      "title": "The New Emergence Art Prize 2026",
+      "link": "https://www.newemergenceart.com/apply",
+      "description": "For emerging artists worldwide, any medium, no theme. Prize fund of £5,000+: a £1,000 grand prize, a two-week residency in Provence, mentoring and materials. Entry fee: £15 / £25 / £30 (1–3 works). Deadline: August 3, 2026 | newemergenceart.com",
+      "deadline": "2026-08-03",
+      "source": "New Emergence Art",
+      "type": "prize",
+      "score": 7,
+      "continent": "Online / Anywhere",
+      "manual": true,
+      "keywords": [
+        "prize",
+        "emerging artists",
+        "residency",
+        "international"
+      ]
+    },
+    {
+      "title": "PhygitArt 2026",
+      "link": "https://www.artrabbit.com/artist-opportunities/2026/august/phygitart-2026-call-for-artists",
+      "description": "For digital, video, animation and generative artists (ages 22–60), with works made for immersive projection; virtual participation possible. An immersive showcase at Villa Graziani (29–30 August 2026) with networking, representation and exhibition opportunities. Organised by Creativo Insoddisfatti. Deadline: August 17, 2026 | artrabbit.com",
+      "deadline": "2026-08-17",
+      "source": "Creativo Insoddisfatti",
+      "type": "open_call",
+      "score": 8,
+      "continent": "Europe",
+      "manual": true,
+      "keywords": [
+        "digital art",
+        "generative",
+        "video",
+        "exhibition",
+        "immersive"
+      ]
+    },
+    {
+      "title": "Talents Contemporains: Earth",
+      "link": "https://www.fondationfrancoisschneider.org/en/contemporary-talents-competition/contemporary-talents-competition-the-earth/",
+      "description": "Open to artists with an established visual arts practice (any nationality), submitting existing outdoor sculptures or installations on the theme of Earth. Up to €15,000 (prize plus acquisition of the work) and permanent installation at Pontigny Abbey. Organised by the François Schneider Foundation. Free to enter (verify). Deadline: August 23, 2026 | fondationfrancoisschneider.org",
+      "deadline": "2026-08-23",
+      "source": "François Schneider Foundation",
+      "type": "prize",
+      "score": 7,
+      "continent": "Europe",
+      "manual": true,
+      "keywords": [
+        "sculpture",
+        "installation",
+        "competition",
+        "outdoor",
+        "prize"
+      ]
+    },
+    {
+      "title": "Discerning Eye 2026",
+      "link": "https://artopps.co.uk/opportunities/discerningeye-26",
+      "description": "For UK-based artists only, any visual medium: small-scale works available for sale. Exhibition at Mall Galleries and online, with prizes worth £9,000+ and exposure to collectors and curators. Organised by The Discerning Eye. Entry fee: £15. Deadline: August 27, 2026 | artopps.co.uk",
+      "deadline": "2026-08-27",
+      "source": "The Discerning Eye",
+      "type": "open_call",
+      "score": 6,
+      "continent": "Europe",
+      "manual": true,
+      "keywords": [
+        "exhibition",
+        "open call",
+        "UK",
+        "prize"
+      ]
+    },
+    {
+      "title": "2026 Liu Shiming Artist Grants",
+      "link": "https://www.lsmartfund.org/artistgrants2026",
+      "description": "For early-career artists (studio-art degree 2016–2024, or debut show 2016–2026); application in English. Project grants supporting new work, disbursed on completion of the proposed project. Organised by the Liu Shiming Art Foundation. Free to enter (verify). Deadline: August 31, 2026 | lsmartfund.org",
+      "deadline": "2026-08-31",
+      "source": "Liu Shiming Art Foundation",
+      "type": "grant",
+      "score": 7,
+      "continent": "Online / Anywhere",
+      "manual": true,
+      "keywords": [
+        "grant",
+        "early-career",
+        "project",
+        "international"
+      ]
+    },
+    {
       "title": "Hyundai Motor Group – The 7th VH Award",
       "link": "https://hyperallergic.com/7th-vh-award-for-media-artists-engaged-with-the-context-of-asia/",
       "description": "A global award for emerging media artists engaging with the context of Asia, featuring grants, a residency with Ars Electronica, and global exhibitions. Read more on Hyperallergic . Deadline: July 21, 2026 | vhaward.com",
