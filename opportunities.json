@@ -1,6 +1,24 @@
 {
-  "generated": "2026-07-01",
+  "generated": "2026-07-22",
   "opportunities": [
+    {
+      "title": "Scottsdale Public Art — Temporary Mural Public Art",
+      "link": "https://scottsdalearts.org/explore-scottsdale-arts/public-art/artist-opportunities/temporary-mural-public-art-call-for-art/",
+      "description": "Scottsdale Public Art seeks an artist or team to design and paint a temporary exterior mural on a City of Scottsdale water riser and concrete SRP well site (south side of Thomas Road, between N 81st Way and N 82nd Street). The artwork theme should relate to water or the SRP canal system, and will be on display for two years. Open only to artists working in the state of Arizona, USA. Total budget: $10,000 USD. Deadline: August 17, 2026 | scottsdalearts.org",
+      "deadline": "2026-08-17",
+      "source": "Scottsdale Arts",
+      "type": "open_call",
+      "score": 7,
+      "continent": "North America",
+      "manual": true,
+      "keywords": [
+        "mural",
+        "public art",
+        "commission",
+        "painting",
+        "open call"
+      ]
+    },
     {
       "title": "Hyundai Motor Group – The 7th VH Award",
       "link": "https://hyperallergic.com/7th-vh-award-for-media-artists-engaged-with-the-context-of-asia/",
@@ -9,6 +27,7 @@
       "source": "Hyperallergic",
       "type": "residency",
       "score": 10,
+      "continent": "Online / Anywhere",
       "keywords": [
         "media art",
         "award",
@@ -25,6 +44,7 @@
       "source": "Hyperallergic",
       "type": "residency",
       "score": 9,
+      "continent": "North America",
       "keywords": [
         "stipend",
         "ceramics",
@@ -41,6 +61,7 @@
       "source": "Hyperallergic",
       "type": "grant",
       "score": 9,
+      "continent": "North America",
       "keywords": [
         "stipend",
         "visual art",
@@ -57,6 +78,7 @@
       "source": "Hyperallergic",
       "type": "grant",
       "score": 9,
+      "continent": "North America",
       "keywords": [
         "stipend",
         "visual art",
@@ -68,11 +90,12 @@
     {
       "title": "Wave Hill — 9th Annual AnkhLave Garden Project Fellowship",
       "link": "https://www.wavehill.org/discover/arts/opportunities/2027-ankhlave-garden-project-fellowship?ref=hyperallergic.com",
-      "description": "Now accepting applications from NYC-based, BIPOC artists. Applications are welcome from artists who work across media. Six artists will receive $1,800 stipends for the Winter Fellowship. Deadline: August 10, 2026 | wavehill.org",
+      "description": "Now accepting applications from NYC-based, BIPOC artists. Applications are welcome from artists who work across media. Six artists will receive $1,800 stipends for the Winter Fellowship. Deadline: August 10, 2026 | wavehill.org",
       "deadline": "2026-08-10",
       "source": "Hyperallergic",
       "type": "grant",
       "score": 6,
+      "continent": "North America",
       "keywords": [
         "stipend",
         "artist",
@@ -88,6 +111,7 @@
       "source": "Hyperallergic",
       "type": "grant",
       "score": 4,
+      "continent": "North America",
       "keywords": [
         "artists",
         "artist",
@@ -102,6 +126,7 @@
       "source": "Hyperallergic",
       "type": "prize",
       "score": 2,
+      "continent": "Online / Anywhere",
       "keywords": [
         "prize"
       ]

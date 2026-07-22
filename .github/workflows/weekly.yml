@@ -1,8 +1,10 @@
 name: Weekly Opportunities Bot
 
 on:
-  schedule:
-    - cron: "0 7 * * 1"
+  # PAUSED — automatic weekly run disabled in favour of manual curation.
+  # To re-enable the bot, uncomment the two lines below.
+  # schedule:
+  #   - cron: "0 7 * * 1"
   workflow_dispatch:
 
 permissions:
