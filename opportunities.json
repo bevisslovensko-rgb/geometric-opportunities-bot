@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-22",
+  "generated": "2026-08-08",
   "opportunities": [
     {
       "title": "Scottsdale Public Art — Temporary Mural Public Art",
@@ -241,6 +241,63 @@
       "continent": "Online / Anywhere",
       "keywords": [
         "prize"
+      ]
+    },
+    {
+      "title": "Open Call for Public Sculpture — Brown Hart Gardens, Mayfair",
+      "fee": "free",
+      "link": "https://stonemancollins.com/",
+      "description": "The Beaumont Mayfair, with curators Stoneman Collins in partnership with the Royal Society of Sculptors, invites sculptors to propose works for the four plinths at Brown Hart Gardens — a historic garden between Bond Street, Oxford Street and Grosvenor Square, outside the hotel's new restaurant Pearl. All sculptors may apply, but the artwork must be physically in the UK at the time of submission. The Beaumont pays a loan fee of £5,000 per sculpture selected. Free to apply (application via CuratorSpace). Deadline: 24 August 2026 | stonemancollins.com",
+      "deadline": "2026-08-24",
+      "source": "Stoneman Collins / The Beaumont Mayfair",
+      "type": "open_call",
+      "score": 8,
+      "continent": "Europe",
+      "manual": true,
+      "keywords": [
+        "sculpture",
+        "public art",
+        "commission",
+        "London",
+        "open call"
+      ]
+    },
+    {
+      "title": "BE OPEN ArtLimitless 2026 — Sustainable Art",
+      "fee": "free",
+      "link": "https://art.beopenfuture.com/art-limitless/",
+      "description": "The BE OPEN Foundation invites artists, designers, sculptors, architects and creative practitioners worldwide to submit work exploring sustainable art-making — recycling, upcycling, repurposing and reused or circular materials — aligned with UN Sustainable Development Goal 12. All career stages and all media are welcome, with no nationality or residence restrictions and no application fee. Selected works are featured in the BE OPEN Art online gallery and promoted across BE OPEN's channels, with three monetary awards of €1,000, €500 and €300. Deadline: 1 October 2026 | art.beopenfuture.com",
+      "deadline": "2026-10-01",
+      "source": "BE OPEN Foundation",
+      "type": "prize",
+      "score": 6,
+      "continent": "Online / Anywhere",
+      "manual": true,
+      "keywords": [
+        "prize",
+        "sustainability",
+        "international",
+        "open call",
+        "online"
+      ]
+    },
+    {
+      "title": "AA2A Artist Residencies 2026/27",
+      "fee": "free",
+      "link": "https://aa2a.org/application-info-2026/",
+      "description": "Artists Access to Art Colleges (AA2A) offers access residencies at 18 universities and colleges across England for the 2026/27 academic year. Selected artists receive a minimum of 100 hours of dedicated access to specialist creative facilities and equipment, plus networking, discounted AXIS membership and eligibility for the AA2A Artist Support Fund (travel, materials, childcare, disability costs). Open to UK-based artists with at least one year of professional practice, willing to deliver up to four sessions to students; artists may apply to up to two host institutions. Application is 100% free. Host deadlines run 31 August–16 September 2026 | aa2a.org",
+      "deadline": "2026-09-16",
+      "source": "AA2A",
+      "type": "residency",
+      "score": 6,
+      "continent": "Europe",
+      "manual": true,
+      "keywords": [
+        "residency",
+        "facilities",
+        "UK",
+        "professional development",
+        "open call"
       ]
     }
   ]
