@@ -358,6 +358,44 @@
         "free",
         "international"
       ]
+    },
+    {
+      "title": "Espace Brownstone × Art in Latin America — Artist Residency 2027",
+      "fee": "free",
+      "link": "https://www.artinlatam.com/p/open-call-espace-brownstone-art-in",
+      "description": "A 2.5-month residency in Paris (15 January – 31 March 2027) for one artist from Latin America or the Caribbean, working in any medium or discipline. Includes housing, a private studio, curatorial support and visa assistance. All career stages welcome; abstract and geometric practices eligible. No application fee. Deadline: October 15, 2026 | artinlatam.com",
+      "deadline": "2026-10-15",
+      "source": "Art in Latin America",
+      "type": "residency",
+      "score": 5,
+      "continent": "Europe",
+      "manual": true,
+      "keywords": [
+        "residency",
+        "abstract",
+        "any medium",
+        "paris",
+        "latin america"
+      ]
+    },
+    {
+      "title": "Msgr. Otto Mauer Prize 2026",
+      "fee": "free",
+      "link": "https://www.kunstuni-linz.at/en/current/competitions-calls/competetions-calls/msgr-otto-mauer-preis-2026",
+      "description": "Annual Austrian prize for contemporary visual art, awarded by the Otto Mauer Fund. Open to artists up to 45 (born 1981 or later) with Austrian citizenship or at least five years of continuous residence in Austria, working in painting, graphics, sculpture, object art, installation or new media — abstract and geometric work eligible. Prize: €15,000. No entry fee. Deadline: October 7, 2026 | otto-mauer-fonds.at",
+      "deadline": "2026-10-07",
+      "source": "Otto Mauer Fonds",
+      "type": "prize",
+      "score": 6,
+      "continent": "Europe",
+      "manual": true,
+      "keywords": [
+        "prize",
+        "painting",
+        "abstract",
+        "austria",
+        "contemporary art"
+      ]
     }
   ]
 }
