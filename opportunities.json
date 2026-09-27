@@ -396,6 +396,26 @@
         "austria",
         "contemporary art"
       ]
+    },
+    {
+      "title": "ACC NEXT: Emerging Asian Artists International 2027",
+      "fee": "free",
+      "link": "https://www.acc.go.kr/en/board/board.do?PID=1001&boardID=NOTICE&action=Read&idx=2866",
+      "description": "Art & Technology exhibition and production program at the National Asian Culture Center (ACC), Gwangju, South Korea, on the theme “Prototype.” Around 10 emerging Asian artists/teams are selected to create new-media work — interactive installation, generative video/image (code- and algorithm-based), kinetic and robotic art, XR — shown at ACC (April–August 2027). Support: artist fee KRW 3,000,000 per work, materials budget up to KRW 2,000,000, international travel and accommodation, plus a shot at the 2027 ACC CREATORS Residency. Eligibility: nationals of an Asian country (or artists born/raised in Asia whose practice deeply engages Asian identity), under 40 (born 1987 or later), with an exhibition record. Free to apply. Application: October 1–25, 2026 | acc.go.kr",
+      "deadline": "2026-10-25",
+      "source": "Asia Culture Center (ACC)",
+      "type": "open_call",
+      "score": 7,
+      "continent": "Asia",
+      "manual": true,
+      "keywords": [
+        "open call",
+        "art and technology",
+        "generative",
+        "kinetic",
+        "new media",
+        "asia"
+      ]
     }
   ]
 }
