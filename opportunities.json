@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-24",
+  "generated": "2026-10-25",
   "opportunities": [
     {
       "title": "Scottsdale Public Art — Temporary Mural Public Art",
@@ -415,6 +415,83 @@
         "kinetic",
         "new media",
         "asia"
+      ]
+    },
+    {
+      "title": "Talents Contemporains: Water (16th Edition)",
+      "fee": "free",
+      "link": "https://www.fondationfrancoisschneider.org/en/contemporary-talents-competition/contemporary-talents-competition-water-wattwiller/",
+      "description": "The Fondation François Schneider's international Contemporary Talents competition, 16th edition, on the theme of Water. Open to artists of all nationalities working in any visual-art medium; the theme lends itself to abstract, geometric and conceptual readings. An international jury selects seven winners, each receiving their work's production funded (up to 50,000 EUR) plus a 15,000 EUR purchase and an exhibition at the foundation's centre in Wattwiller, France. Free to enter. Application period 23 September to 22 November 2026. fondationfrancoisschneider.org",
+      "deadline": "2026-11-22",
+      "source": "Fondation François Schneider",
+      "type": "prize",
+      "score": 8,
+      "continent": "Europe",
+      "manual": true,
+      "keywords": [
+        "prize",
+        "competition",
+        "water",
+        "abstract",
+        "international",
+        "funded"
+      ]
+    },
+    {
+      "title": "The Hopper Prize: Fall 2026 Artist Grants",
+      "fee": "$40",
+      "link": "https://hopperprize.org",
+      "description": "Biannual unrestricted artist grants from The Hopper Prize, open to visual artists worldwide aged 18 and over working in any medium or style, abstract and geometric included. Six grants are awarded, two of 4,500 USD and four of 1,000 USD (13,000 USD total), with 30 artists shortlisted for added exposure to the prize's international network of curators and gallerists. Entry fee 40 USD. Deadline 17 November 2026. hopperprize.org",
+      "deadline": "2026-11-17",
+      "source": "The Hopper Prize",
+      "type": "grant",
+      "score": 7,
+      "continent": "Online / Anywhere",
+      "manual": true,
+      "keywords": [
+        "grant",
+        "artist grant",
+        "all media",
+        "abstract",
+        "international"
+      ]
+    },
+    {
+      "title": "VisArts: Call for Solo Exhibitions 2027",
+      "fee": "free",
+      "link": "https://visarts.submittable.com/submit",
+      "description": "Open call from VisArts in Rockville, Maryland (USA) for solo exhibitions across its three galleries during 2027. Open to artists worldwide working in all media, with abstract and geometric work welcome. Selected artists receive a solo exhibition at an established non-profit contemporary art centre in the Washington, DC metro area. Free to apply. Deadline 13 November 2026. visarts.org",
+      "deadline": "2026-11-13",
+      "source": "VisArts (Rockville, MD)",
+      "type": "open_call",
+      "score": 7,
+      "continent": "North America",
+      "manual": true,
+      "keywords": [
+        "open call",
+        "solo exhibition",
+        "all media",
+        "usa",
+        "abstract"
+      ]
+    },
+    {
+      "title": "Est-Nord-Est Artist Residency 2027-2028",
+      "fee": "free",
+      "link": "https://estnordest.org/en/artist-residency/artist-residency-regular/",
+      "description": "Eight-week residency at Est-Nord-Est in Saint-Jean-Port-Joli, Québec, Canada, for professional artists (established or emerging) from anywhere in the world, working in any contemporary discipline. Residents receive a private studio-workshop with lodging, a CAD 2,080 honorarium, and access to specialised wood, metal and ceramics facilities plus technical and artistic support; travel and materials are the artist's own responsibility. No application fee. Deadline 8 November 2026 for the 2027-2028 periods. estnordest.org",
+      "deadline": "2026-11-08",
+      "source": "Est-Nord-Est",
+      "type": "residency",
+      "score": 7,
+      "continent": "North America",
+      "manual": true,
+      "keywords": [
+        "residency",
+        "canada",
+        "all media",
+        "international",
+        "funded"
       ]
     }
   ]
