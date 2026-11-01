@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25",
+  "generated": "2026-11-01",
   "opportunities": [
     {
       "title": "Scottsdale Public Art — Temporary Mural Public Art",
@@ -491,6 +491,66 @@
         "canada",
         "all media",
         "international",
+        "funded"
+      ]
+    },
+    {
+      "title": "Supergraphics Commission, Marlborough Sports Garden (London)",
+      "fee": "free",
+      "link": "https://bost.org.uk/artist-open-call",
+      "description": "Bankside Open Spaces Trust is commissioning a bold, large-scale supergraphics artwork for Marlborough Sports Garden in Southwark, London, spanning basketball courts, hoardings and shipping containers. Open to artists and designers with experience or an interest in public art and large-scale graphics. £10,000 artist fee plus a separate £50,000 fabrication and installation budget. Three shortlisted artists develop proposals; one is appointed by 11 December 2026. Free to apply. Deadline 13 November 2026. bost.org.uk",
+      "deadline": "2026-11-13",
+      "source": "Bankside Open Spaces Trust",
+      "type": "open_call",
+      "score": 8,
+      "continent": "Europe",
+      "manual": true,
+      "keywords": [
+        "public art",
+        "commission",
+        "supergraphics",
+        "large-scale",
+        "london",
+        "uk"
+      ]
+    },
+    {
+      "title": "2027 Beam Camp Project Open Call",
+      "fee": "free",
+      "link": "https://www.beamcenter.org/events/2027-beam-camp-project-call-3bpb9",
+      "description": "Beam Center invites proposals from anywhere in the world for an ambitious, hand-built large-scale project to be fabricated in summer 2027 at Beam Camp in New Hampshire, USA. Open to individuals or teams of any age: artists, designers, architects, engineers and builders. Selected proposers receive a $5,000 award, an approx. $15,000 fabrication budget and reimbursed travel to camp. No application fee. Deadline 30 November 2026. beamcenter.org",
+      "deadline": "2026-11-30",
+      "source": "Beam Center",
+      "type": "open_call",
+      "score": 7,
+      "continent": "North America",
+      "manual": true,
+      "keywords": [
+        "proposal",
+        "public art",
+        "sculpture",
+        "construction",
+        "international",
+        "funded"
+      ]
+    },
+    {
+      "title": "Two Together: Porthmeor Studios Residencies 2027",
+      "fee": "free",
+      "link": "https://freelandsfoundation.co.uk/engage/apply/residencies/two-together-porthmeor-studios-residencies-2027",
+      "description": "Freelands Foundation and the Borlase Smart John Wells Trust offer three one-month residencies for pairs of UK-based visual artists at the historic Porthmeor Studios in St Ives, Cornwall, in March, May or September 2027. Artists apply in pairs, with one of the two based in Devon or Cornwall, and need at least five years of studio practice. Each artist receives a £2,000 stipend, plus a shared studio, shared accommodation and travel costs. Free to apply. Deadline 30 November 2026, 10am. freelandsfoundation.co.uk",
+      "deadline": "2026-11-30",
+      "source": "Freelands Foundation",
+      "type": "residency",
+      "score": 7,
+      "continent": "Europe",
+      "manual": true,
+      "keywords": [
+        "residency",
+        "uk",
+        "st ives",
+        "cornwall",
+        "painting",
         "funded"
       ]
     }
