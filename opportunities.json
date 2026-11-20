@@ -553,6 +553,27 @@
         "painting",
         "funded"
       ]
+    },
+    {
+      "title": "First Plinth: Public Art Award 2027",
+      "fee": "£34",
+      "link": "https://sculptors.org.uk/awards/first-plinth",
+      "description": "The Royal Society of Sculptors' award for artists working in three dimensions who are not yet recognised in public art. Open to any age and nationality; applicants must not have won a public art commission above £20,000, and formally trained artists need at least three years of post-graduate practice. This edition's theme is RENEWAL. The winner receives £20,000 to realise a large-scale sculpture, shown on the Dora House sculpture terrace in London in 2028, with mentoring from engineers and consultants. Up to five shortlisted artists receive £1,000 each to develop a maquette and proposal. Apply via CuratorSpace. Fee £34 (£24 for RSS members), non-refundable. Deadline 12 January 2027, 5pm UK. sculptors.org.uk",
+      "deadline": "2027-01-12",
+      "source": "Royal Society of Sculptors",
+      "type": "prize",
+      "score": 8,
+      "continent": "Europe",
+      "manual": true,
+      "keywords": [
+        "prize",
+        "sculpture",
+        "public art",
+        "three-dimensional",
+        "international",
+        "london",
+        "commission"
+      ]
     }
   ]
 }
