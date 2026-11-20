@@ -574,6 +574,28 @@
         "london",
         "commission"
       ]
+    },
+    {
+      "title": "G & A Mamidakis Foundation Art Prize 2027",
+      "fee": "free",
+      "link": "https://gnamamidakisfoundation.org/en/vraveio-technis/",
+      "description": "The Mamidakis Foundation invites Greek and international artists to propose a large-scale sculptural installation for permanent outdoor display in Agios Nikolaos, Crete, chosen from one of three proposed sites. Open to sculpture, installation, sound installation, mixed media, land art and environmental practices; artistic duos welcome. The winner receives a €15,000 prize, and the Foundation covers all production and installation costs, transport of the work, a return ticket to Crete, accommodation and meals. The work is made February to May 2027 and unveiled in June 2027. Applications in English or Greek via the Foundation's online form. Deadline 30 December 2026, 23:59 Greek time. gnamamidakisfoundation.org",
+      "deadline": "2026-12-30",
+      "source": "G & A Mamidakis Foundation",
+      "type": "prize",
+      "score": 8,
+      "continent": "Europe",
+      "manual": true,
+      "keywords": [
+        "prize",
+        "sculpture",
+        "installation",
+        "public art",
+        "commission",
+        "international",
+        "free",
+        "greece"
+      ]
     }
   ]
 }
